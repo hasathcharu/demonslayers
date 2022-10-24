@@ -1,0 +1,41 @@
+.snapshot{
+    display:flex;
+    margin:2rem;
+    justify-content: center;
+    gap:1rem;
+    .snapshot-item{
+        min-width:12rem;
+        padding:1rem;
+        border-radius:1rem;
+        background-color: var(--headerpricolor);
+        text-align: center;
+        h1{
+            font-size:2.5rem;
+        }
+        &#alert{
+            h1{
+                color:var(--danger);
+            }
+        }
+        &#order{
+            h1{
+                color:var(--warning);
+            }
+        }
+        &#material{
+            h1{
+                color:var(--good);
+            }
+        }
+        &#accept{
+            h1{
+                color:var(--secondary);
+            }
+        }
+        &#delivery{
+            h1{
+                color:var(--warning);
+            }
+        }
+    }
+}

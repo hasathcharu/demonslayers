@@ -19,6 +19,11 @@ a{
     --theme: #70A4D4;
     --mainfont-color: #333333;
     --mainfont: 'Poppins';
+    --danger: #ee5353;
+    --warning: #feca57;
+    --secondary: #4ddbfb;
+    --good: #1cd1a1;
+    
     font-family: var(--mainfont);
     color: var(--mainfont-color);
 }

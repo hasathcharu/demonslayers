@@ -1,6 +1,7 @@
 @use 'variables';
 @use 'sidebar';
 @use 'content';
+@use '_dbsnapshot';
 body{
     margin:0;
 }
