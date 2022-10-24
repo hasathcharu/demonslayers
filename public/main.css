@@ -15,7 +15,7 @@ a {
 
 :root {
   --headerbg:#333333;
-  --headerseccolor: #bbbbbb;
+  --headerseccolor: #dddddd;
   --headerpricolor: #eeeeee;
   --separatordark: #aaaaaa;
   --theme: #70A4D4;
@@ -114,6 +114,52 @@ a {
   color: var(--warning);
 }
 
+.detail {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+.detail .detail-card {
+  background-color: var(--headerpricolor);
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 45%;
+}
+.detail .detail-card h1 {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.detail .detail-card .detail-item {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+  border-bottom: 1px solid var(--headerbg);
+}
+.detail .detail-card .detail-item .good {
+  background-color: var(--good);
+  padding: 0.2rem;
+  border-radius: 0.3rem;
+}
+.detail .detail-card .detail-item .bad {
+  background-color: var(--danger);
+  padding: 0.2rem;
+  border-radius: 0.3rem;
+}
+.detail .detail-card .detail-item h2 {
+  font-size: 1.2rem;
+}
+.detail .detail-card .detail-item h3 {
+  font-size: 0.8rem;
+}
+.detail .detail-card .detail-item .two-button {
+  display: grid;
+  grid-gap: 0.5rem;
+}
+
 .allgood {
   height: 100%;
   display: grid;
@@ -142,6 +188,31 @@ main {
   display: grid;
   margin: 2rem;
   grid-template-rows: auto auto;
+}
+
+button {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: var(--theme);
+  color: var(--headerpricolor);
+  cursor: pointer;
+}
+button:disabled {
+  background-color: var(--headerseccolor);
+  color: grey;
+}
+button.warning-btn {
+  background-color: var(--warning);
+  color: var(--mainfont-color);
+}
+button.good-btn {
+  background-color: var(--good);
+  color: var(--mainfont-color);
+}
+button.danger-btn {
+  background-color: var(--danger);
+  color: var(--mainfont-color);
 }
 
 /*# sourceMappingURL=main.css.map */
