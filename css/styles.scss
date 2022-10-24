@@ -2,10 +2,16 @@
 @use 'sidebar';
 @use 'content';
 @use '_dbsnapshot';
+@use '_dbdetail';
 body{
     margin:0;
 }
 main{
     display:grid;
     grid-template-columns: auto 1fr;
+}
+.dbcontent{
+    display:grid;
+    margin:2rem;
+    grid-template-rows: auto auto;
 }

@@ -1,0 +1,17 @@
+.detail{
+
+}
+.allgood{
+    height:100%;
+    display:grid;
+    align-content: center;
+    justify-content: center;
+    text-align:center;
+    grid-gap:2rem;
+    lottie-player{
+        height:25rem;
+    }
+    h1{
+        font-size:2rem;
+    }
+}

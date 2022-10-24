@@ -84,7 +84,7 @@ a {
 
 .snapshot {
   display: flex;
-  margin: 2rem;
+  margin-bottom: 4rem;
   justify-content: center;
   gap: 1rem;
 }
@@ -114,6 +114,21 @@ a {
   color: var(--warning);
 }
 
+.allgood {
+  height: 100%;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  grid-gap: 2rem;
+}
+.allgood lottie-player {
+  height: 25rem;
+}
+.allgood h1 {
+  font-size: 2rem;
+}
+
 body {
   margin: 0;
 }
@@ -121,6 +136,12 @@ body {
 main {
   display: grid;
   grid-template-columns: auto 1fr;
+}
+
+.dbcontent {
+  display: grid;
+  margin: 2rem;
+  grid-template-rows: auto auto;
 }
 
 /*# sourceMappingURL=main.css.map */
