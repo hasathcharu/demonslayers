@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 400;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+:root {
+  --headerbg:#333333;
+  --headerseccolor: #bbbbbb;
+  --headerpricolor: #eeeeee;
+  --separatordark: #aaaaaa;
+  --theme: #70A4D4;
+  --mainfont-color: #333333;
+  --mainfont: "Poppins";
+  font-family: var(--mainfont);
+  color: var(--mainfont-color);
+}
+
+.sidebar {
+  background-color: var(--headerbg);
+  width: 100%;
+  min-width: 15rem;
+  color: var(--headerpricolor);
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+.sidebar .title {
+  text-align: center;
+  font-size: 0.8rem;
+  height: 4rem;
+  line-height: 4rem;
+}
+.sidebar .menu ul {
+  list-style-type: none;
+  padding: 0;
+  padding: 1rem;
+}
+.sidebar .menu ul li a {
+  cursor: pointer;
+  padding: 0.8rem;
+  margin: 0.5rem 0;
+  border-radius: 0.5rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.sidebar .menu ul li a .icon {
+  width: 1rem;
+  text-align: center;
+}
+.sidebar .menu ul li a:hover, .sidebar .menu ul li a.active {
+  background-color: var(--theme);
+}
+.sidebar footer {
+  text-align: center;
+  color: var(--headerseccolor);
+  padding-bottom: 1rem;
+}
+
+.main-content {
+  max-height: 100vh;
+  overflow-x: auto;
+}
+.main-content header {
+  height: 4rem;
+  background-color: var(--headerpricolor);
+  line-height: 4rem;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+/*# sourceMappingURL=main.css.map */

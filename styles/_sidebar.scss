@@ -1,0 +1,45 @@
+.sidebar{
+    background-color: var(--headerbg);
+    width:100%;
+    min-width:15rem;
+    color: var(--headerpricolor);
+    min-height:100vh;
+    display:grid;
+    grid-template-rows: auto 1fr auto;
+    .title{
+        text-align: center;
+        font-size:.8rem;
+        height:4rem;
+        line-height:4rem;
+    }
+    .menu{
+        ul{
+            list-style-type: none;
+            padding:0;
+            padding:1rem;
+            li{
+                a{
+                    cursor:pointer;
+                    padding:.8rem;
+                    margin:.5rem 0;
+                    border-radius:.5rem;
+                    display:flex;
+                    gap:1rem;
+                    align-items: center;
+                    .icon{
+                        width:1rem;
+                        text-align: center;
+                    }
+                }
+            }
+            li a:hover, li a.active{
+                background-color: var(--theme);
+            }
+        }
+    }
+    footer{
+        text-align:center;
+        color:var(--headerseccolor);
+        padding-bottom:1rem;
+    }
+}

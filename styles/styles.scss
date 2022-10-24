@@ -1,0 +1,10 @@
+@use 'variables';
+@use 'sidebar';
+@use 'content';
+body{
+    margin:0;
+}
+main{
+    display:grid;
+    grid-template-columns: auto 1fr;
+}

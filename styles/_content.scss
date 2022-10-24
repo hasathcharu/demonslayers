@@ -1,0 +1,10 @@
+.main-content{
+    max-height:100vh;
+    overflow-x: auto;
+    header{
+        height: 4rem;
+        background-color: var(--headerpricolor);
+        line-height:4rem;
+        text-align: center;
+    }
+}
