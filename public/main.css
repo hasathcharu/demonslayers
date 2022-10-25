@@ -229,6 +229,8 @@ h3 i {
 
 .purchase-content {
   margin: 3rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .table-filter {
@@ -300,6 +302,34 @@ th, td {
 th {
   text-align: left;
   background-color: var(--bgweekch);
+}
+
+.draft {
+  background-color: var(--bgweekch);
+  padding: 0.4rem;
+  border-radius: 0.6rem;
+  color: var(--warning);
+}
+
+.closed {
+  background-color: var(--bgweekch);
+  padding: 0.4rem;
+  border-radius: 0.6rem;
+  color: var(--danger);
+}
+
+.inprogress {
+  background-color: var(--bgweekch);
+  padding: 0.4rem;
+  border-radius: 0.6rem;
+  color: var(--good);
+}
+
+.onhold {
+  background-color: var(--bgweekch);
+  padding: 0.4rem;
+  border-radius: 0.6rem;
+  color: var(--secondary);
 }
 
 body {

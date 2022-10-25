@@ -1,9 +1,7 @@
 .purchase-content {
     margin: 3rem;
-    // display: flex;
-    // justify-content: center;
-    // border-radius: 2rem;
-    // background-color: aqua;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);    
 }
 
 .table-filter {
@@ -77,3 +75,32 @@ th {
     text-align: left;
     background-color: var(--bgweekch);
 }
+
+.draft {
+    background-color: var(--bgweekch);
+    padding: .4rem;
+    border-radius: .6rem;
+    color: var(--warning);
+}
+
+.closed {
+    background-color: var(--bgweekch);
+    padding: .4rem;
+    border-radius: .6rem;
+    color: var(--danger);
+}
+
+.inprogress {
+    background-color: var(--bgweekch);
+    padding: .4rem;
+    border-radius: .6rem;
+    color: var(--good);
+}
+
+.onhold {
+    background-color: var(--bgweekch);
+    padding: .4rem;
+    border-radius: .6rem;
+    color: var(--secondary);
+}
+
