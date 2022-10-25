@@ -25,6 +25,7 @@ a {
   --warning: #feca57;
   --secondary: #4ddbfb;
   --good: #1cd1a1;
+  --bgweekch:#f1f0f0dd;
   font-family: var(--mainfont);
   color: var(--mainfont-color);
 }
@@ -173,6 +174,55 @@ a {
 }
 .allgood h1 {
   font-size: 2rem;
+}
+
+.purchase-heading {
+  margin: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.week-title {
+  display: flex;
+  align-items: center;
+}
+
+h3 span {
+  color: var(--secondary);
+}
+
+h3 i {
+  cursor: pointer;
+  color: var(--separatordark);
+  font-size: 0.8rem;
+  padding-left: 0.5rem;
+}
+
+.week-changer {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
+.week-changer-p1 {
+  background-color: var(--bgweekch);
+  border-radius: 3rem;
+  padding: 0.3rem;
+}
+
+.week-changer i {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  color: var(--separatordark);
+}
+
+.weeks {
+  font-weight: 600;
+}
+
+.year {
+  color: var(--separatordark);
+  font-size: 0.8rem;
 }
 
 body {
