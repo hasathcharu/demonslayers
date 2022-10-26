@@ -1,0 +1,129 @@
+.Reciept{
+    margin: 25px;
+    background: rgb(245, 245, 245);
+    border-radius: 10px;
+    
+
+.Reciept-company{
+
+    margin-left: 3rem;
+    display: grid;
+    padding-top: 10px;
+    h3{color: var(--good);}
+    p{size: 5px;margin-top: 2px;padding-left: 5px;}
+}
+
+.Reciept-heading{
+    
+    h2 {color: rgb(4, 100, 180);text-align: center;}
+}
+
+.Reciept-content{
+    
+    display: flex;
+
+        .left{
+            margin: 20px;
+            width: 50%;
+            display: flex;
+
+            .left-left{
+                p{
+                    color: black;
+                }
+
+                width: 50%;
+            }
+
+        }
+
+        .right{
+            margin: 20px;
+            width: 50%;
+            display: flex;
+
+            .right-left{
+
+                p{
+                    color: black;
+                }
+
+                width: 50%;
+            }
+
+        }
+
+
+}
+
+.Reciept-table{
+
+   
+
+    $background: #e1e1e1;
+    $lfs-blue: #006ac6;
+    $lfs-yellow: #fab700;
+    $lfs-grey: #75787b;
+    
+        background-color: $background;
+    
+
+    .table-latitude {
+        margin-top: 20px;
+        border-radius: 5px;
+        width: 100%;
+        caption {
+            text-transform: uppercase;
+            font-weight: bold;
+            color: $lfs-yellow;
+            text-align: center;
+        }
+        thead {
+            border-top: 2px solid $lfs-yellow;
+            border-bottom: 2px solid $lfs-yellow;
+            
+            th {
+                text-transform: uppercase;
+                text-align: left;
+                padding: 10px;
+                color: $lfs-blue;
+                border-left: 2px solid var(--good);
+            }
+        }
+        tbody {
+            tr {
+                border-bottom: 2px solid $lfs-yellow;
+                color: $lfs-grey;
+                td {
+                    padding: 10px;
+                    border: 1px solid #F1F1F1;
+                }
+                th {
+                    padding-left: 10px;
+                    border: 1px solid #F1F1F1;
+                }
+            }
+        }
+        tfoot {
+            
+            
+            border-bottom: 2px solid var(--good);
+            tr {
+                th {
+                    padding: 10px;
+                    border: 1px solid #F1F1F1;
+                }
+                
+            }
+            tr {
+                td {
+                    padding: 10px;
+                    border: 1px solid #F1F1F1;
+                }
+            }
+        }
+    }
+}
+
+
+}
