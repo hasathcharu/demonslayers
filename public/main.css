@@ -428,6 +428,80 @@ th {
   border: 1px solid #F1F1F1;
 }
 
+.mtr_heading {
+  margin: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.mat_req {
+  margin: 25px;
+  background: rgb(245, 245, 245);
+  border-radius: 10px;
+  padding: 25px;
+}
+.mat_req .mrq_heading {
+  padding-top: 30px;
+}
+.mat_req .mrq_heading h2 {
+  color: rgb(4, 100, 180);
+  text-align: center;
+}
+.mat_req .Title-data {
+  margin-left: 20px;
+  display: flex;
+}
+.mat_req .Title-data .mrq_title {
+  margin: 20px;
+  margin-right: 40px;
+  display: flex;
+}
+.mat_req .Title-data .mrq_data p {
+  margin-left: 20px;
+  align-content: right;
+  display: flex;
+}
+.mat_req .Title-data .availability {
+  display: flex;
+  align-content: right;
+  margin-left: 25%;
+  margin-top: 7%;
+}
+.mat_req .Title-data .availability .good {
+  background-color: var(--good);
+  padding: 0.2rem;
+  border-radius: 0.3rem;
+}
+.mat_req .Title-data .availability .bad {
+  background-color: var(--danger);
+  padding: 0.2rem;
+  border-radius: 0.3rem;
+}
+.mat_req .mrq_table {
+  background-color: #e1e1e1;
+}
+.mat_req .mrq_table .table-latitude {
+  margin-top: 20px;
+  border-radius: 5px;
+  width: 100%;
+}
+.mat_req .mrq_table .table-latitude tr {
+  border-bottom: 2px solid #fab700;
+  border-bottom: 2px solid #fab700;
+  color: #75787b;
+}
+.mat_req .mrq_table .table-latitude tr td {
+  padding: 10px;
+  border: 1px solid #F1F1F1;
+}
+.mat_req .mrq_table .table-latitude tr th {
+  text-transform: uppercase;
+  text-align: left;
+  padding: 10px;
+  color: #006ac6;
+  border-left: 2px solid var(--good);
+}
+
 body {
   margin: 0;
 }
