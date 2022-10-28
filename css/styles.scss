@@ -3,6 +3,11 @@
 @use 'content';
 @use '_dbsnapshot';
 @use '_dbdetail';
+@use '_pheading';
+@use '_ptable';
+@use '_receipt';
+@use '_material';
+
 body{
     margin:0;
 }

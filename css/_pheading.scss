@@ -1,0 +1,59 @@
+.purchase-heading{
+    margin: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.week-title {
+    display: flex;
+    align-items: center;
+}
+
+// h3 {
+//     font-weight: 600;
+// }
+
+h3 span {
+    
+    color: var(--secondary);
+}
+
+h3 i {
+    cursor: pointer;
+    color: var(--separatordark);
+    font-size: .8rem;
+    padding-left: .5rem;
+}
+
+.week-changer {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+
+.week-changer-p1 {
+    background-color: var(--bgweekch);
+    border-radius: 3rem;
+    padding: .3rem;
+}
+
+.week-changer i {
+    cursor: pointer;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    color: var(--separatordark);
+}
+
+.weeks {
+    font-weight: 600;
+}
+
+.year {
+    color: var(--separatordark);
+    font-size: .8rem;
+}
+
+.calander {
+    // background-color: var(--bgweekch);
+    // border-radius: 50%;
+}

@@ -25,6 +25,8 @@ a {
   --warning: #feca57;
   --secondary: #4ddbfb;
   --good: #1cd1a1;
+  --bgweekch:#f1f0f0dd;
+  --filtertxt:#727171;
   font-family: var(--mainfont);
   color: var(--mainfont-color);
 }
@@ -173,6 +175,331 @@ a {
 }
 .allgood h1 {
   font-size: 2rem;
+}
+
+.purchase-heading {
+  margin: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.week-title {
+  display: flex;
+  align-items: center;
+}
+
+h3 span {
+  color: var(--secondary);
+}
+
+h3 i {
+  cursor: pointer;
+  color: var(--separatordark);
+  font-size: 0.8rem;
+  padding-left: 0.5rem;
+}
+
+.week-changer {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
+.week-changer-p1 {
+  background-color: var(--bgweekch);
+  border-radius: 3rem;
+  padding: 0.3rem;
+}
+
+.week-changer i {
+  cursor: pointer;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  color: var(--separatordark);
+}
+
+.weeks {
+  font-weight: 600;
+}
+
+.year {
+  color: var(--separatordark);
+  font-size: 0.8rem;
+}
+
+.purchase-content {
+  margin: 3rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.table-filter {
+  margin-bottom: 2rem;
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 0.5fr;
+}
+
+.search {
+  outline: 2px solid var(--bgweekch);
+  border-radius: 1rem;
+  padding: 0.3rem;
+  border: 1rem;
+}
+
+.search i {
+  padding-left: 2px;
+  color: var(--headerseccolor);
+}
+
+input[type=text] {
+  padding: 0.3rem;
+  border: none;
+  outline: none;
+}
+
+.filter {
+  margin: auto;
+}
+
+.filter i {
+  cursor: pointer;
+  color: var(--headerseccolor);
+}
+
+.filter-txt1 {
+  color: var(--headerbg);
+}
+
+.filter-txt2 {
+  border-radius: 1rem;
+  padding: 0.3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border: 1rem;
+  outline: 2px solid var(--bgweekch);
+  color: var(--filtertxt);
+}
+
+.pages {
+  color: var(--filtertxt);
+  margin: auto;
+}
+
+.pages i {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 0.7rem;
+  padding-left: 4rem;
+}
+
+th {
+  text-align: left;
+  background-color: var(--bgweekch);
+}
+
+.draft {
+  background-color: var(--bgweekch);
+  padding: 0.4rem;
+  border-radius: 0.6rem;
+  color: var(--warning);
+}
+
+.closed {
+  background-color: var(--bgweekch);
+  padding: 0.4rem;
+  border-radius: 0.6rem;
+  color: var(--danger);
+}
+
+.inprogress {
+  background-color: var(--bgweekch);
+  padding: 0.4rem;
+  border-radius: 0.6rem;
+  color: var(--good);
+}
+
+.onhold {
+  background-color: var(--bgweekch);
+  padding: 0.4rem;
+  border-radius: 0.6rem;
+  color: var(--secondary);
+}
+
+.Reciept {
+  margin: 25px;
+  background: rgb(245, 245, 245);
+  border-radius: 10px;
+}
+.Reciept .Reciept-company {
+  margin-left: 3rem;
+  display: grid;
+  padding-top: 10px;
+}
+.Reciept .Reciept-company h3 {
+  color: var(--good);
+}
+.Reciept .Reciept-company p {
+  size: 5px;
+  margin-top: 2px;
+  padding-left: 5px;
+}
+.Reciept .Reciept-heading h2 {
+  color: rgb(4, 100, 180);
+  text-align: center;
+}
+.Reciept .Reciept-content {
+  display: flex;
+}
+.Reciept .Reciept-content .left {
+  margin: 20px;
+  width: 50%;
+  display: flex;
+}
+.Reciept .Reciept-content .left .left-left {
+  width: 50%;
+}
+.Reciept .Reciept-content .left .left-left p {
+  color: black;
+}
+.Reciept .Reciept-content .right {
+  margin: 20px;
+  width: 50%;
+  display: flex;
+}
+.Reciept .Reciept-content .right .right-left {
+  width: 50%;
+}
+.Reciept .Reciept-content .right .right-left p {
+  color: black;
+}
+.Reciept .Reciept-table {
+  background-color: #e1e1e1;
+}
+.Reciept .Reciept-table .table-latitude {
+  margin-top: 20px;
+  border-radius: 5px;
+  width: 100%;
+}
+.Reciept .Reciept-table .table-latitude caption {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fab700;
+  text-align: center;
+}
+.Reciept .Reciept-table .table-latitude thead {
+  border-top: 2px solid #fab700;
+  border-bottom: 2px solid #fab700;
+}
+.Reciept .Reciept-table .table-latitude thead th {
+  text-transform: uppercase;
+  text-align: left;
+  padding: 10px;
+  color: #006ac6;
+  border-left: 2px solid var(--good);
+}
+.Reciept .Reciept-table .table-latitude tbody tr {
+  border-bottom: 2px solid #fab700;
+  color: #75787b;
+}
+.Reciept .Reciept-table .table-latitude tbody tr td {
+  padding: 10px;
+  border: 1px solid #F1F1F1;
+}
+.Reciept .Reciept-table .table-latitude tbody tr th {
+  padding-left: 10px;
+  border: 1px solid #F1F1F1;
+}
+.Reciept .Reciept-table .table-latitude tfoot {
+  border-bottom: 2px solid var(--good);
+}
+.Reciept .Reciept-table .table-latitude tfoot tr th {
+  padding: 10px;
+  border: 1px solid #F1F1F1;
+}
+.Reciept .Reciept-table .table-latitude tfoot tr td {
+  padding: 10px;
+  border: 1px solid #F1F1F1;
+}
+
+.mtr_heading {
+  margin: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.mat_req {
+  margin: 25px;
+  background: rgb(245, 245, 245);
+  border-radius: 10px;
+  padding: 25px;
+}
+.mat_req .mrq_heading {
+  padding-top: 30px;
+}
+.mat_req .mrq_heading h2 {
+  color: rgb(4, 100, 180);
+  text-align: center;
+}
+.mat_req .Title-data {
+  margin-left: 20px;
+  display: flex;
+}
+.mat_req .Title-data .mrq_title {
+  margin: 20px;
+  margin-right: 40px;
+  display: flex;
+}
+.mat_req .Title-data .mrq_data p {
+  margin-left: 20px;
+  align-content: right;
+  display: flex;
+}
+.mat_req .Title-data .availability {
+  display: flex;
+  align-content: right;
+  margin-left: 25%;
+  margin-top: 7%;
+}
+.mat_req .Title-data .availability .good {
+  background-color: var(--good);
+  padding: 0.2rem;
+  border-radius: 0.3rem;
+}
+.mat_req .Title-data .availability .bad {
+  background-color: var(--danger);
+  padding: 0.2rem;
+  border-radius: 0.3rem;
+}
+.mat_req .mrq_table {
+  background-color: #e1e1e1;
+}
+.mat_req .mrq_table .table-latitude {
+  margin-top: 20px;
+  border-radius: 5px;
+  width: 100%;
+}
+.mat_req .mrq_table .table-latitude tr {
+  border-bottom: 2px solid #fab700;
+  border-bottom: 2px solid #fab700;
+  color: #75787b;
+}
+.mat_req .mrq_table .table-latitude tr td {
+  padding: 10px;
+  border: 1px solid #F1F1F1;
+}
+.mat_req .mrq_table .table-latitude tr th {
+  text-transform: uppercase;
+  text-align: left;
+  padding: 10px;
+  color: #006ac6;
+  border-left: 2px solid var(--good);
 }
 
 body {

@@ -1,0 +1,93 @@
+.mtr_heading{
+    margin: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.mat_req{
+    margin: 25px;
+    background: rgb(245, 245, 245);
+    border-radius: 10px;
+    padding: 25px;
+
+
+    .mrq_heading{
+        padding-top: 30px;
+        h2 {color: rgb(4, 100, 180);text-align: center;}
+    }
+
+    .Title-data{
+    
+       margin-left: 20px;
+       display: flex;
+           .mrq_title{
+               margin: 20px;
+               margin-right: 40px;
+               display: flex;
+           }
+
+            .mrq_data{
+                p{
+                    margin-left: 20px;
+                    align-content: right;
+                    display: flex;
+                }
+            }
+
+            .availability{
+                display: flex;
+                align-content: right;
+                margin-left: 25%;
+                margin-top: 7%;
+                .good{
+                    background-color: var(--good);
+                    padding:.2rem;
+                    border-radius:.3rem;
+                }
+                .bad{
+                    background-color: var(--danger);
+                    padding:.2rem;
+                    border-radius:.3rem;
+                }
+            }
+
+    }
+
+
+    .mrq_table{
+
+        $background: #e1e1e1;
+        $lfs-blue: #006ac6;
+        $lfs-yellow: #fab700;
+        $lfs-grey: #75787b;
+    
+        background-color: $background;
+    
+
+        .table-latitude {
+            margin-top: 20px;
+            border-radius: 5px;
+            width: 100%;
+
+                tr {
+                    border-bottom: 2px solid $lfs-yellow;
+                        border-bottom: 2px solid $lfs-yellow;
+                    color: $lfs-grey;
+                
+                    td {
+                        padding: 10px;
+                        border: 1px solid #F1F1F1;
+                    }
+               
+                    th {
+                        text-transform: uppercase;
+                        text-align: left;
+                        padding: 10px;
+                        color: $lfs-blue;
+                        border-left: 2px solid var(--good);
+                    }
+                }
+        }
+    }
+
+}
