@@ -508,13 +508,17 @@ th {
   padding-right: 30px;
 }
 .topnav .btnspace {
-  display: flex;
   margin-top: 0px;
   margin-right: 20px;
   margin-bottom: 0px;
-  margin-left: 0px;
+  margin-left: 20px;
+  padding-right: 20px;
+}
+.topnav .filter .vl, .topnav .filltypes .vl {
+  border-color: white;
 }
 .topnav .filter button, .topnav .filltypes button {
+  margin-right: 5px;
   border-radius: 8px;
   box-shadow: none;
   align-items: center;
@@ -540,6 +544,7 @@ th {
 .topnav .right button {
   height: 32px;
   width: 32px;
+  margin-right: 5px;
   border-radius: 8px;
   box-shadow: none;
   align-items: center;
@@ -563,6 +568,7 @@ th {
 }
 .topnav .addnew {
   height: 32px;
+  margin-right: 5px;
   border-radius: 8px;
   box-shadow: none;
   align-items: center;
@@ -606,13 +612,16 @@ th {
   border-left-style: solid;
   border-color: rgb(221, 221, 221);
   outline-style: none;
+  margin-right: 5px;
 }
 
 .inventory-table {
+  border-radius: 8px;
   width: 95%;
   margin: 25px;
 }
 .inventory-table thead {
+  background-color: #0087fe;
   text-transform: uppercase;
   border-radius: 5px;
   border-bottom: #000000;
