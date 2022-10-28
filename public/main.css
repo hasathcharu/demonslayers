@@ -561,6 +561,29 @@ th {
   outline-style: none;
   float: right;
 }
+.topnav .addnew {
+  height: 32px;
+  border-radius: 8px;
+  box-shadow: none;
+  align-items: center;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  width: auto;
+  color: #000000;
+  white-space: nowrap;
+  display: flex;
+  background-image: linear-gradient(rgb(19, 139, 200) 0%, rgb(27, 206, 219) 100%);
+  border-width: 2px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-color: rgb(221, 221, 221);
+  outline-style: none;
+  float: right;
+}
 .topnav .reorder {
   height: 32px;
   float: right;
