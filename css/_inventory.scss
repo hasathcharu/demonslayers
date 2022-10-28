@@ -1,0 +1,125 @@
+.topnav{
+    margin: 25px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    
+    
+    .btnspace{
+        display: flex;
+    margin-top: 0px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    }
+.filter, .filltypes{
+    button{
+        border-radius: 8px;
+        box-shadow: none;
+        align-items:center;
+        box-sizing: border-box;
+        font-size: 14px;
+        font-weight: bold;
+        text-align: center;
+        width: auto;
+        color: #000000;
+        white-space: nowrap;
+        display: flex;
+        background-color: transparent;
+        border-width: 2px;
+        border-top-style: solid;
+        border-right-style: solid;
+        border-bottom-style: solid;
+        border-left-style: solid;
+        border-color: rgb(221, 221, 221);
+        height: 32px;
+        outline-style: none;
+       float: left;
+    }
+}
+.right{
+    
+    button{
+        height: 32px;
+        width: 32px;
+        
+        border-radius: 8px;
+        box-shadow: none;
+        align-items:center;
+        box-sizing: border-box;
+        font-size: 14px;
+        font-weight: bold;
+        text-align: center;
+        width: auto;
+        color: #000000;
+        white-space: nowrap;
+        display: flex;
+        background-color: transparent;
+        border-width: 2px;
+        border-top-style: solid;
+        border-right-style: solid;
+        border-bottom-style: solid;
+        border-left-style: solid;
+        border-color: rgb(221, 221, 221);
+        outline-style: none;
+        float: right;
+    }
+    }
+    .reorder{
+        height: 32px;
+        float: right;
+        border-radius: 8px;
+        box-shadow: none;
+        align-items:center;
+        box-sizing: border-box;
+        font-size: 14px;
+        font-weight: bold;
+        text-align: center;
+        width: auto;
+        color: #000000;
+        white-space: nowrap;
+        display: flex;
+        background-image: linear-gradient(rgb(237, 166, 61) 0%, rgb(247, 200, 85) 100%);
+        border-width: 2px;
+        border-top-style: solid;
+        border-right-style: solid;
+        border-bottom-style: solid;
+        border-left-style: solid;
+        border-color: rgb(221, 221, 221);
+        outline-style: none;
+        
+    }
+}
+
+
+.inventory-table{
+    width: 95%;
+    margin: 25px;
+    
+        thead{
+            th{
+                border-top: 1px solid #000000;
+                border-bottom: 1px solid #000000;
+            }
+            text-transform: uppercase;
+            border-radius: 5px;
+            border-bottom: #000000;
+            color: #006ac6;
+
+        }
+        tbody{
+            tr{
+                
+            }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+            
+            
+        }
+        tr:hover{
+            background-color: var(--theme);
+        }
+    }
+        
+    
+}
+
